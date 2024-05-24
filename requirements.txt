@@ -1,0 +1,10 @@
+Flask==2.0.2
+Flask-Cors==3.1.1
+Flask-Migrate==3.1.1
+Flask-SQLAlchemy==3.0.0
+celery==5.2.3
+moviepy==1.0.3
+SpeechRecognition==3.8.1
+textblob==0.15.3
+pke==1.11.4
+spacy==3.2.1

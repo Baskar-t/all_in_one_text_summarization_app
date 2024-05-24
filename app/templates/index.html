@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All-in-One Text Summarization App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>All-in-One Text Summarization App</h1>
+        <form id="upload-form" enctype="multipart/form-data">
+            <label for="video-upload">Upload a video file:</label>
+            <input type="file" id="video-upload" name="video" accept="video/*">
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result">
+            <h2>Results:</h2>
+            <div id="transcription"></div>
+            <div id="summary"></div>
+            <div id="keyphrases"></div>
+            <div id="sentiment"></div>
+            <div id="entities"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
