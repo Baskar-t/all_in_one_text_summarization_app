@@ -1,10 +1,11 @@
-Flask==2.0.2
-Flask-Cors==3.1.1
-Flask-Migrate==3.1.1
+Flask==2.2
+Flask-Cors==4.0.1
+Flask-Migrate==4.0.7
 Flask-SQLAlchemy==3.0.0
 celery==5.2.3
 moviepy==1.0.3
 SpeechRecognition==3.8.1
 textblob==0.15.3
-pke==1.11.4
-spacy==3.2.1
+spacy==3.2.3
+python-dotenv==0.19.2
+pke==2.0.0
